@@ -4,17 +4,17 @@ import Login from "./components/Login";
 
 const theme = createTheme({
   lightColors: {
-    primary: "#0083FF"
+    primary: "#0083FF",
   },
   darkColors: {
-    primary: '#000',
+    primary: "#000",
   },
 });
 
-export default function App() {
+export default () => {
   return (
     <ThemeProvider theme={theme}>
-      <Login />
+      <Login></Login>
     </ThemeProvider>
   );
 }

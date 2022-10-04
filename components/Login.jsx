@@ -118,21 +118,21 @@ export default function App() {
           </View>
           {/* iconos de registro */}
           <View style={styles.viewSign}>
-            <TouchableOpacity style={styles.roundButtonGoogle}>
+            <TouchableOpacity style={styles.roundButtonGoogle} href="http://localhost:5000/auth/google">
               <Image
                 source={require("../assets/imgs/buttonGoogle.png")}
                 style={styles.imgButtonSign}
               ></Image>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.roundButtonFacebook}>
+            <TouchableOpacity style={styles.roundButtonFacebook} href="http://localhost:5000/auth/facebook">
               <Image
                 source={require("../assets/imgs/buttonFacebook.png")}
                 style={styles.imgButtonSign}
               ></Image>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.roundButtonFacebook}>
+            <TouchableOpacity style={styles.roundButtonApple}>
               <Image
-                source={require("../assets/imgs/buttonFacebook.png")}
+                source={require("../assets/imgs/buttonApple.png")}
                 style={styles.imgButtonSign}
               ></Image>
             </TouchableOpacity>
@@ -204,9 +204,21 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "2px 2px 2px",
     marginHorizontal: 10,
   },
+  roundButtonApple: {
+    display: "flex",
+    width: 80,
+    height: 80,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 10,
+    borderRadius: 100,
+    backgroundColor: "black",
+    boxShadow: "2px 2px 2px",
+    marginHorizontal: 10,
+  },
   imgButtonSign: {
-    width: 30,
-    height: 30,
+    width: 40,
+    height: 40,
   },
   viewSign: {
     display: "flex",

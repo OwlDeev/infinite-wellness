@@ -1,0 +1,30 @@
+{
+  "files": {
+    "app.js": "/infinite-wellness/static/js/app.672c052a.chunk.js",
+    "app.js.map": "/infinite-wellness/static/js/app.672c052a.chunk.js.map",
+    "runtime~app.js": "/infinite-wellness/static/js/runtime~app.9aeb7519.js",
+    "runtime~app.js.map": "/infinite-wellness/static/js/runtime~app.9aeb7519.js.map",
+    "static/js/2.814a9463.chunk.js": "/infinite-wellness/static/js/2.814a9463.chunk.js",
+    "static/js/2.814a9463.chunk.js.map": "/infinite-wellness/static/js/2.814a9463.chunk.js.map",
+    "favicon-16.png": "/infinite-wellness/favicon-16.png",
+    "favicon-32.png": "/infinite-wellness/favicon-32.png",
+    "favicon.ico": "/infinite-wellness/favicon.ico",
+    "index.html": "/infinite-wellness/index.html",
+    "manifest.json": "/infinite-wellness/manifest.json",
+    "serve.json": "/infinite-wellness/serve.json",
+    "static/js/2.814a9463.chunk.js.LICENSE.txt": "/infinite-wellness/static/js/2.814a9463.chunk.js.LICENSE.txt",
+    "static/media/bell.png": "/infinite-wellness/static/media/bell.cf04af27.png",
+    "static/media/buttonFacebook.png": "/infinite-wellness/static/media/buttonFacebook.1b7d15a1.png",
+    "static/media/buttonGoogle.png": "/infinite-wellness/static/media/buttonGoogle.10790941.png",
+    "static/media/fondoLogin3.png": "/infinite-wellness/static/media/fondoLogin3.93c73137.png",
+    "static/media/heart.png": "/infinite-wellness/static/media/heart.23b5c2c0.png",
+    "static/media/logo2.png": "/infinite-wellness/static/media/logo2.3efbebef.png",
+    "static/media/rocket.png": "/infinite-wellness/static/media/rocket.d2f3bf41.png",
+    "static/media/star.png": "/infinite-wellness/static/media/star.69c71386.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.9aeb7519.js",
+    "static/js/2.814a9463.chunk.js",
+    "static/js/app.672c052a.chunk.js"
+  ]
+}
