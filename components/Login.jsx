@@ -2,7 +2,7 @@ import React from "react";
 import { View, ImageBackground, TouchableOpacity } from "react-native";
 import { makeStyles, Button, Image, Text } from "@rneui/themed";
 import Icon from "@mdi/react";
-import { mdiFacebook, mdiGoogle, mdiApple } from "@mdi/js";
+import { mdiGoogle, mdiApple } from "@mdi/js";
 
 export default function App() {
   const styles = useStyles();
@@ -41,28 +41,6 @@ export default function App() {
               style={{ marginRight: 5 }}
             />
             CONTINUAR CON GOOGLE
-          </Button>
-          <Button
-            titleStyle={{ fontWeight: "700", color: "white" }}
-            buttonStyle={{
-              backgroundColor: "#3b5998",
-              borderColor: "black",
-              borderWidth: 1,
-              borderRadius: 30,
-            }}
-            containerStyle={{
-              width: "100%",
-              marginVertical: 10,
-            }}
-          >
-            <Icon
-              path={mdiFacebook}
-              title="google"
-              size={1.2}
-              color="white"
-              style={{ marginRight: 5 }}
-            />
-            CONTINUAR CON FACEBOOK
           </Button>
           <Button
             titleStyle={{ fontWeight: "700", color: "white" }}
@@ -121,12 +99,6 @@ export default function App() {
             <TouchableOpacity style={styles.roundButtonGoogle} href="http://localhost:5000/auth/google">
               <Image
                 source={require("../assets/imgs/buttonGoogle.png")}
-                style={styles.imgButtonSign}
-              ></Image>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.roundButtonFacebook} href="http://localhost:5000/auth/facebook">
-              <Image
-                source={require("../assets/imgs/buttonFacebook.png")}
                 style={styles.imgButtonSign}
               ></Image>
             </TouchableOpacity>
@@ -189,18 +161,6 @@ const useStyles = makeStyles((theme) => ({
     padding: 10,
     borderRadius: 100,
     backgroundColor: "white",
-    boxShadow: "2px 2px 2px",
-    marginHorizontal: 10,
-  },
-  roundButtonFacebook: {
-    display: "flex",
-    width: 80,
-    height: 80,
-    justifyContent: "center",
-    alignItems: "center",
-    padding: 10,
-    borderRadius: 100,
-    backgroundColor: "#3b5998",
     boxShadow: "2px 2px 2px",
     marginHorizontal: 10,
   },
